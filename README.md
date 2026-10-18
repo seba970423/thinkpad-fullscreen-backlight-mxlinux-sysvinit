@@ -28,6 +28,7 @@ Here's the link for the systemd variant: https://github.com/seba970423/thinkpad-
 Run **as a normal desktop user**, not with `sudo`:
 
 ```bash
+https://github.com/seba970423/thinkpad-fullscreen-backlight-mxlinux-sysvinit
 ./install.sh --dry-run
 ./install.sh
 ./status.sh
