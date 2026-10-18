@@ -1,6 +1,7 @@
 # ThinkPad Fullscreen Keyboard Backlight — MX Linux (SysVinit / Plasma 6)
 
 **v0.2 test build.** Based on the ThinkPad Fullscreen Backlight KDE6 project, this is a **separate MX Linux edition**, with its own KWin package ID. The original repository and installation are left untouched.
+
 Here's the link for the systemd variant: https://github.com/seba970423/thinkpad-fullscreen-backlight-kde6
 
 ## Features
@@ -43,6 +44,7 @@ When the answer is `y`, it then asks for startup level `1` or `2`. When the answ
 For automation or an explicit test:
 
 ```bash
+git clone https://github.com/seba970423/thinkpad-fullscreen-backlight-mxlinux-sysvinit
 ./install.sh --startup-on --startup-level 1 --no-logout
 ./install.sh --startup-on --startup-level 2 --no-logout
 ./install.sh --startup-off --no-logout
