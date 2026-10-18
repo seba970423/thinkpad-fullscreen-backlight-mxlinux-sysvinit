@@ -1,0 +1,13 @@
+{
+  "KPlugin": {
+    "Id": "thinkpad-fullscreen-backlight-mx-sysvinit",
+    "Name": "ThinkPad Fullscreen Backlight (MX SysVinit)",
+    "Description": "Turn keyboard backlight off in fullscreen using KDE PowerDevil; restore the previous level on exit",
+    "Version": "0.1.0",
+    "License": "MIT",
+    "Authors": [{"Name": "George"}]
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "KPackageStructure": "KWin/Script"
+}
